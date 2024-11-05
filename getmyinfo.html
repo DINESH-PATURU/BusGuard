@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Busguard - Get My Info</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Get My Info</h2>
+    
+    <!-- Horizontal Wrapper for the Three Containers -->
+    <div class="form-wrapper">
+      <!-- First Container -->
+      <div class="form-container">
+        <input type="text" placeholder="Depot Name" required>
+        <input type="text" placeholder="Platform Number" required>
+      </div>
+
+      <!-- Second Container -->
+      <div class="form-container">
+        <input type="text" placeholder="Vehicle No" required>
+        <input type="text" placeholder="Service No" required>
+      </div>
+
+      <!-- Third Container -->
+      <div class="form-container">
+        <input type="text" placeholder="From" required>
+        <input type="text" placeholder="To" required>
+        <input type="date" required>
+      </div>
+    </div>
+
+    <!-- Button Group -->
+    <div class="button-group">
+      <button type="submit" class="btn">Submit</button>
+      <a href="index.html" class="btn">Back to Home</a>
+    </div>
+  </div>
+</body>
+<style>
+  .btn {
+  width:200px;
+}
+.container {
+  width: 90%;
+  max-width: 1000px;
+  background-color: #0B0C10;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+</style>
+</html>
